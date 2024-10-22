@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from dotenv import load_dotenv
-
 # Load environment variables from the .env file
 load_dotenv()
 
@@ -29,7 +28,7 @@ SECRET_KEY = 'django-insecure-rx1d#anf86o6&2&836n-wd12*+t9&yf4g#_m%%fhts%kchc53j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app", ".now.sh"]
 
 
 
